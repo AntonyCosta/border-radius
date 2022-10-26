@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Gerador de Border Radius</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="br-principal container">
+        <h1 class="br-titulo">Border Radius</h1>
+        <p class="br-texto">
+          declare os valores abaixo para gerar o atributo, você pode vê-lo e
+          copiar.
+        </p>
+      </div>
+    </main>
+
+    <section>
+      <div class="container br-border">
+        <textarea name="codigo" id="codigo" cols="40" rows="13" readonly>
+        </textarea>
+      </div>
+      <div class="br-layout container">
+        <div>
+          <span>Top</span>
+          <input type="text" id="br-input" value="0" />
+        </div>
+        <div>
+          <span>Right</span>
+          <input type="text" id="br-input" value="0" />
+        </div>
+        <div>
+          <span>Bottom</span>
+          <input type="text" id="br-input" value="0" />
+        </div>
+        <div>
+          <span>Left</span>
+          <input type="text" id="br-input" value="0" />
+        </div>
+      </div>
+
+    </section>
+    <footer class="br-gerar">
+      <button class="br-botao">Gerar Código</button>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
