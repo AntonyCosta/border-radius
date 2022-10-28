@@ -20,32 +20,31 @@
 
     <section>
       <div class="container br-border">
-        <textarea name="codigo" id="codigo" cols="40" rows="13" readonly>
+        <textarea name="codigo" id="codigo" cols="40" rows="13" readonly onclick="copiarTexto()">
         </textarea>
       </div>
       <div class="br-layout container">
         <div>
-          <span>Top</span>
-          <input type="text" id="br-input" value="0" />
+          <span>Top-left</span>
+          <input class="top-left" type="text" id="br-input" value="4" />
         </div>
         <div>
-          <span>Right</span>
-          <input type="text" id="br-input" value="0" />
+          <span>Top-right</span>
+          <input class="top-right" type="text" id="br-input" value="4" />
         </div>
         <div>
-          <span>Bottom</span>
-          <input type="text" id="br-input" value="0" />
+          <span>Bottom-right</span>
+          <input class="bottom-right" type="text" id="br-input" value="4" />
         </div>
         <div>
-          <span>Left</span>
-          <input type="text" id="br-input" value="0" />
+          <span>Bottom-left</span>
+          <input class="bottom-left" type="text" id="br-input" value="4" />
         </div>
       </div>
-
+      <footer class="layout-botao">
+        <button class="container br-botao" onclick="valorBorda()">Visualizar Código</button>
+      </footer>
     </section>
-    <footer class="br-gerar">
-      <button class="br-botao">Gerar Código</button>
-    </footer>
     <script src="script.js"></script>
   </body>
 </html>
