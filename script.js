@@ -16,9 +16,9 @@ function valorBorda() {
     bottomRightCode = 'border-radius-bottom-right: ';
     bottomLeftCode = 'border-radius-bottom-left: ';
 
-    visualizar.innerText = topLeftCode + topLeft + "px;"
-        + topRightCode + topRight + "px;"
-        + bottomRightCode + bottomRight + "px;"
+    visualizar.innerHTML = topLeftCode + topLeft + "px; \n"
+        + topRightCode + topRight + "px; \n"
+        + bottomRightCode + bottomRight + "px; \n"
         + bottomLeftCode + bottomLeft + "px;"
 
 }
